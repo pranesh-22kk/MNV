@@ -4,7 +4,7 @@ pipeline {
     environment {
         DOCKER_IMAGE = "techtalkjervin/social-app"
         DOCKER_TAG = "latest"
-        DOCKER_CREDENTIALS_ID = "docker-cred"
+        DOCKER_CREDENTIALS_ID = "docker-hub-creds"
         GITHUB_CREDENTIALS_ID = "github-credentials"
         KUBECONFIG = "/var/lib/jenkins/.kube/config"
     }
